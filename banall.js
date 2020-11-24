@@ -1,13 +1,10 @@
-const users = [
-	'123',
-	'321'
-];
+const users = ['123','321'];
 
 const ban_message = "message here";
-//
 const user_token = "user token here"
 
 while (count <= users.length)) {
+	
 	let url = `https://discord.com/api/v8/guilds/571727683491332117/bans/${users[count]}`;
 	let token = `${user_token}`;
 	let xhr = new XMLHttpRequest();
